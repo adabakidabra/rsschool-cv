@@ -64,4 +64,4 @@ otbor(arr_sim, lst_sim, a)
 ## Languages:
 * Belarusian - Native
 * Russian - High
-* English - 1 
+* English - A1 
