@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="rapper">
+      <header id="header">
+        <div class="wrapper">
+          <input type="checkbox" id="check-menu" />
+          <label for="check-menu">MENU</label>
+          <div class="line first"></div>
+          <div class="line second"></div>
+          <div class="line third"></div>
+          <div class="line fourth"></div>
+          <nav class="menu">
+            <a href="#code">Code example</a>
+            <a href="#education">Education</a>
+            <a href="#contakt">contact</a>
+            <a href="#skil">Skills</a>
+          </nav>
+        </div>
+      </header>
+      <main id="main">
+        <h1 class="h2">Mikalai Tsialichka</h1>
+        <div class="box1">
+          <h2 class="h2">Briefly About Myself</h2>
+          <img class="photo" src="./images/ava.jpg" alt="photo" />
+          <div class="h2">
+            <p>
+              Hello World!))) It's not a secret for anyone,that programming is
+              the trend of our time... So... where else to test yourself and
+              your abilities!? I believe that iT is the future.
+            </p>
+            <p>
+              I started to be interested in programming half a year ago. In my
+              free time I got knowledge with the Phyton language, and now I
+              decided to take a training from RS School on web development.
+            </p>
+            <p>
+              Goal: to reach a serious level as a specialist. Participate in a
+              project that they will be proud of. And of course to make the
+              world a better place
+            </p>
+          </div>
+        </div>
+        <h2 class="h2" id="skil">Skills and Proficiency</h2>
+        <ul class="h2">
+          <li>HTML, CSS3</li>
+          <li>VC Code, PyCharm</li>
+          <li>Git, GitHub</li>
+        </ul>
+        <h2 class="h2" id="code">Code example</h2>
+        <pre><code>
+                with open('input.txt', 'r', encoding='utf-8') as sim:
+    arr_sim = sim.read()
+    print(arr_sim)
+    lst_sim = 'qwertyuiop'
+    a = len(lst_sim)
+
+def otbor(q, e, r):
+    for z in range(a):
+        if lst_sim[z] in arr_sim:
+            pass
+        else:
+            with open('output.txt', 'a', encoding='utf-8') as otbor_sim:
+                otbor_sim.write(lst_sim[z])
+otbor(arr_sim, lst_sim, a)
+                </code></pre>
+        <h2 class="h2" id="education">Education</h2>
+        <ul class="h2">
+          <li>higher education</li>
+          <li>HTML and CSS Tutorials on the Code Basics (completed)</li>
+          <li>
+            RS Schools Course « JavaScript/Front-end. Stage 0» (in progress)
+          </li>
+        </ul>
+        <h2 class="h2">Languages:</h2>
+        <ul class="h2">
+          <li>Belarusian - Native</li>
+          <li>Russian - High</li>
+          <li>English - A1</li>
+        </ul>
+      </main>
+      <footer class="footer">
+        <div id="contakt" class="contact">
+          <ul class="spisok">
+            <li>
+              <img src="./icons/phone.png" alt="p"/>Telephone +375 29 808 80 28
+            </li>
+            <li>
+              <img src="./icons/email.png" alt="p"/>kolabelorus9@gmail.com
+            </li>
+            <li>
+              <img src="./icons/discord.png" alt="p"/>Nikolai
+              Belarus(@adabakidabra)
+            </li>
+            <li>
+              
+              <a  id="kent" href="https://github.com/adabakidabra">
+                <img src="./icons/github.png" alt="p"/></a>
+            </li>
+          </ul>
+        </div>
+        <div class="year">2022</div>
+        <div class="rs">
+          <a id="git" href="https://rs.school/js/">
+              <img src="./icons/rs_school_js.svg" alt="image"/></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
